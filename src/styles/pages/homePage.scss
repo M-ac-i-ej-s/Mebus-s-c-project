@@ -1,0 +1,37 @@
+@import '../index';
+
+.div__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .div__box {
+        margin: 100px 0 50px 0;
+        display: flex;
+        justify-content: center;
+        gap:100px;
+        height: 500px;
+        align-items: center;
+        .div__title {
+            display: flex;
+            flex-direction: column;
+            margin-right: 14vh;
+            .span__title {
+                font-size: 70px;
+                color: $white;
+                text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+            }
+        }
+        .div__blob {
+            position: absolute;
+            width: 700px;
+            margin-left: 43vh;
+            z-index: -1;
+        }
+    }
+    .div__text {
+        padding: 30px;
+        font-size: 20px;
+        width: 100vh;
+    }
+}

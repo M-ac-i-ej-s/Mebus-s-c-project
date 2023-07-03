@@ -1,0 +1,16 @@
+.div__about {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    .div__main_about {
+        display: flex;
+        justify-content: center;
+        width: 100vh;
+        .div__paragraph {
+            padding: 20px 20px 10px 20px;
+        }
+        h1 {
+            padding: 20px 20px 0 20px;
+        }
+    }
+}
