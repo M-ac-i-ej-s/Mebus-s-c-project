@@ -11,7 +11,6 @@
         .span__category {
             margin: 0 20px 0 20px;
             font-size: 22px;
-            transition: 0.2s ease-in-out;
             cursor: pointer;
             &.main {
                 font-size: 40px;
@@ -19,6 +18,7 @@
             .Link__link {
                 text-decoration: none;
                 color: $black;
+                transition: 0.2s ease-in-out;
                 &:hover {
                     color: #1c97d4;
                 }
