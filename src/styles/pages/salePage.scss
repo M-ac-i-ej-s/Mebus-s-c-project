@@ -1,0 +1,14 @@
+.div__sale {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    .div__sale_main {
+        width: 60vh;
+        .div__section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 30px;
+        }
+    }
+}

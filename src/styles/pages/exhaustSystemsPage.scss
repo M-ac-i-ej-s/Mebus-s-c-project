@@ -1,0 +1,15 @@
+.div__exhaust {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    .div__exhaust_main {
+        width: 100vh;
+        .div__tab {
+            display: flex;
+            align-items: center;
+            span {
+                margin: 0 20px 0 20px;
+            }
+        }
+    }
+}

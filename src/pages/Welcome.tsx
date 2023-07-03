@@ -17,12 +17,18 @@ const WelcomePage = () => {
         setRadius('900')
         setTimeout(() => {
             navigate('/home')
-        },3000)
+        },2500)
     }
 
     return (
             <motion.div exit={{ opacity: 0 }} transition={{duration: 1}}>
                 <div className='div__main_box'>
+                    <div className='div__title_box'>
+                        <span className='span__title'>
+                            Mebus S.C.
+                        </span>
+                        <Button onClick={animationStart} variant="contained" size='large' sx={{borderRadius: 10}} endIcon={<SendIcon />}>Get started</Button>
+                    </div>
                     <div className='div__tires'>
                         <img src={tire} alt="tire" style={{transform: `rotate(${radius}deg)`}} />
                         <img src={tire} alt="tire" style={{transform: `rotate(${radius}deg)`}}/>
@@ -36,12 +42,6 @@ const WelcomePage = () => {
                                 return <div key={index} className='div__white_space'></div>
                             })
                         }
-                    </div>
-                    <div className='div__title_box'>
-                        <span className='span__title'>
-                            Mebus S.C.
-                        </span>
-                        <Button onClick={animationStart} variant="contained" size='large' sx={{borderRadius: 10}} endIcon={<SendIcon />}>Get started</Button>
                     </div>
                 </div>
             </motion.div>

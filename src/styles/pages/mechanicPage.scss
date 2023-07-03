@@ -1,0 +1,16 @@
+.div__mechanic {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    .div__mechanic_main {
+        width: 120vh;
+        .div__tab {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span {
+                margin: 0 20px 0 20px;
+            }
+        }
+    }
+}

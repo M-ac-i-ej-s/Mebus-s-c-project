@@ -1,0 +1,18 @@
+.div__contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    .div__contact_main {
+        display: flex;
+        gap: 30px;
+        .div__section {
+            padding: 10px 20px 10px 20px;
+            display: flex;
+            flex-direction: column;
+            span {
+                font-size: 20px;
+                margin: 10px 0px 10px 0px;
+            }
+        }
+    }
+}

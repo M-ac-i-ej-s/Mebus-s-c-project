@@ -1,0 +1,23 @@
+@import '../index';
+
+.div__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    .div__footer_main {
+        width: 100vh;
+        display: flex;
+        padding: 40px 0 40px 0;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        .div__section {
+            display: flex;
+            flex-direction: column;
+            color: #F8F8F8;
+            span {
+                font-size: 20px;
+            }
+        }
+    }
+}
