@@ -29,6 +29,12 @@
             z-index: -1;
         }
     }
+    .div__wave {
+        position: absolute;
+        z-index: -1;
+        top: 119vh;
+        scale: 1.5;
+    }
     .div__text {
         padding: 30px;
         font-size: 20px;

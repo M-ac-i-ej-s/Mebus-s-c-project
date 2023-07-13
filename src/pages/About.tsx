@@ -1,9 +1,13 @@
 import Paper from "@mui/material/Paper";
+import Wave from '../assets/wave.png'
 import '../styles/pages/aboutPage.scss'
 
 const About = () => {
   return (
     <div className="div__about">
+        <div className="div__wave">
+            <img src={Wave} alt="wave" />
+        </div>
         <div className="div__main_about">
         <Paper elevation={3}>
             <h1>Historia Mebusa</h1>
