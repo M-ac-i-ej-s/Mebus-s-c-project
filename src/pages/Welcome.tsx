@@ -27,7 +27,7 @@ const WelcomePage = () => {
                         <span className='span__title'>
                             Mebus S.C.
                         </span>
-                        <Button onClick={animationStart} variant="contained" size='large' sx={{borderRadius: 10}} endIcon={<SendIcon />}>Get started</Button>
+                        <Button onClick={animationStart} variant="contained" size='large' sx={{borderRadius: 10}} endIcon={<SendIcon />}>Jedziemy!</Button>
                     </div>
                     <div className='div__tires'>
                         <img src={tire} alt="tire" style={{transform: `rotate(${radius}deg)`}} />
