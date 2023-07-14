@@ -5,9 +5,9 @@
     justify-content: center;
     margin-top: 50px;
     .div__footer_main {
-        width: 100vh;
+        width: 120vh;
         display: flex;
-        padding: 40px 0 40px 0;
+        padding: 40px 60px 40px 60px;
         justify-content: center;
         align-items: center;
         gap: 60px;
@@ -15,6 +15,7 @@
             display: flex;
             flex-direction: column;
             color: #F8F8F8;
+            width: 300px;
             span {
                 font-size: 20px;
             }
