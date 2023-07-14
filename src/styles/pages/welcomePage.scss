@@ -4,8 +4,10 @@ body {
     background-color: #1c97d4;
     background-image: url('../../assets/background.jpg');
     background-repeat: no-repeat;
+    background-size: 100% 1200px;
     overflow-x: hidden;
 }
+
 .div__main_box {
     .div__tires {
         position: absolute;
@@ -29,7 +31,7 @@ body {
         left: 0;
         right: 0;
         text-align: center;
-        bottom: 18vh;
+        bottom: 170px;
         z-index: 9;
     }
     .div__road {
