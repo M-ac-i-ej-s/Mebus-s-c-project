@@ -32,9 +32,11 @@
     .div__wave {
         position: absolute;
         z-index: -1;
-        top: 1000px;
+        top: 110%;
         width: 100%;
-        scale: 1.2;
+        img {
+            width: 100%;
+        }
     }
     .div__text {
         padding: 30px;
