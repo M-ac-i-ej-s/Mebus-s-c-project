@@ -4,11 +4,15 @@ import LocalTaxiIcon from '@mui/icons-material/LocalTaxi';
 import StoreIcon from '@mui/icons-material/Store';
 import SearchIcon from '@mui/icons-material/Search';
 import CarRepairIcon from '@mui/icons-material/CarRepair';
+import Wave from '../assets/wave.png'
 import '../styles/pages/salePage.scss'
 
 const Sale = () => {
   return (
     <div className="div__sale">
+        <div className="div__wave">
+            <img src={Wave} alt="wave" />
+        </div>
         <div className="div__sale_main">
             <Paper elevation={3}>
                 <div className="div__section">
