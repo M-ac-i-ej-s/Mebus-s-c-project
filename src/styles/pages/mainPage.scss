@@ -1,5 +1,13 @@
 @import '../index';
 
+body {
+    background-color: #1c97d4;
+    background-image: url('../../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 1200px;
+    overflow-x: hidden;
+}
+
 .div__box_main {
     font-size: 200px;
     color: $white;

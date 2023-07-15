@@ -10,22 +10,22 @@ const Navbar = () => {
         <Paper elevation={3}>
             <div className="div__category_box">
                 <span className="span__category main">
-                    <Link className='Link__link' to='/home'>Mebus</Link>
+                    <Link className='Link__link' to='/'>Mebus</Link>
                 </span>
                 <span className="span__category">
-                    <Link className='Link__link' to='/home/about'>O firmie</Link>
+                    <Link className='Link__link' to='/about'>O firmie</Link>
                 </span>
                 <span className="span__category">
-                    <Link className='Link__link' to='/home/exhaustsystems'>Układy wydechowe</Link>
+                    <Link className='Link__link' to='/exhaustsystems'>Układy wydechowe</Link>
                 </span>
                 <span className="span__category">
-                    <Link className='Link__link' to='/home/mechanic'>Mechanika Pojazdowa</Link>
+                    <Link className='Link__link' to='/mechanic'>Mechanika Pojazdowa</Link>
                 </span>
                 <span className="span__category">
-                    <Link className='Link__link' to='/home/sale'>Promocje</Link>
+                    <Link className='Link__link' to='/sale'>Promocje</Link>
                 </span>
                 <span className="span__category">
-                    <Link className='Link__link' to='/home/contact'>Kontakt</Link>
+                    <Link className='Link__link' to='/contact'>Kontakt</Link>
                 </span>
                 <span className="span__category">
                     <Link className='Link__link' to='https://www.facebook.com/profile.php?id=100054519188060'>
